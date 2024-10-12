@@ -1,0 +1,19 @@
+{
+  "name": "functional_programming",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "my-library/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/my-library",
+        "main": "my-library/src/index.ts",
+        "tsConfig": "my-library/tsconfig.lib.json",
+        "assets": ["my-library/*.md"]
+      }
+    }
+  }
+}

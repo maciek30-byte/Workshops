@@ -1,0 +1,21 @@
+Filter people over 30 years old living in Warsaw.
+
+Task: Write a predicate that returns all people who are older than 30 and live in Warsaw.
+Filter women under 25 years old or working as doctors.
+
+Task: Create a predicate that returns all women who are younger than 25 or those who work as doctors.
+Complex filtering for people over 40 living outside Warsaw or students under 20.
+
+Task: Write a predicate that selects people who are over 40 years old and live outside of Warsaw, or people under 20 years old who are students.
+Filter people who have lived in more than two cities and currently reside in Poland.
+
+Task: Write a predicate to find all individuals who have lived in more than two cities and are currently living in Poland.
+Exclude all people who are older than 50 or younger than 18.
+
+Task: Write a predicate to filter out all people who are either older than 50 or younger than 18 from the list.
+Filter people who have worked in the 'Technology' industry and are employed full-time.
+
+Task: Create a predicate that returns all individuals who have worked in the 'Technology' industry and are currently employed full-time.
+Filter events based on conditions:
+
+Task: Imagine each person has attended various events, and create a predicate that filters events based on the following conditions: events that happen in summer months, with a minimum number of attendees, and either being outdoors or having free admission if indoors. (You can extend the data model for events to practice this).
