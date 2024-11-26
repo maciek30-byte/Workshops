@@ -1,0 +1,53 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+}
+
+.line {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.input {
+    width: 90%;
+    height: 90%;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.input:disabled {
+    background-color: rgb(141, 137, 137);
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    cursor: not-allowed;
+    text-transform: uppercase;
+  }
+
+  .correct {
+    background-color: green;
+  }
+
+  .close {
+    background-color: yellow;
+  }
+
+  .incorrect {
+    background-color: red;
+  }

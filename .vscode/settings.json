@@ -1,0 +1,28 @@
+{
+    "window.commandCenter": 1,
+    "files.autoSave": "onFocusChange",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "@TODO"
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cursor.cpp.enablePartialAccepts": true,
+    "explorer.confirmDelete": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true
+}

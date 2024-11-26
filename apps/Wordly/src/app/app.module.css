@@ -1,0 +1,10 @@
+/* Your styles goes here. */
+.appContainer {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
