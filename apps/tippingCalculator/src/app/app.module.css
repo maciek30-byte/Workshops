@@ -1,0 +1,14 @@
+/* Your styles goes here. */
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,11 @@
+.tile {
+    flex-basis: 20%;
+    border: 1px solid black;
+    height: 20px;
+    background-color: white;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+}
